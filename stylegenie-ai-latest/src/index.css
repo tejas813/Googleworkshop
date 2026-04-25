@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply antialiased selection:bg-orange-500 selection:text-white;
+  }
+}
+
+@layer components {
+  .prose {
+    @apply leading-relaxed;
+  }
+  .prose-invert {
+    @apply text-white/80;
+  }
+  .prose-invert strong {
+    @apply text-white;
+  }
+  .prose p {
+    @apply mb-4 last:mb-0;
+  }
+  .prose strong {
+    @apply font-semibold;
+  }
+}

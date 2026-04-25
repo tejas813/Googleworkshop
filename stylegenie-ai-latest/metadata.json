@@ -1,0 +1,6 @@
+{
+  "name": "StyleGenie AI",
+  "description": "An AI-powered ecommerce product recommendation chatbot that suggest clothes based on gender, age, city, and style.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
